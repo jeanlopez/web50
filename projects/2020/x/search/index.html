@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <style type="text/css">
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            input[type=text], select {
+                width: 85%;
+                height:30px;
+                margin: 08px 10px 0px 0px;
+                display: inline-block;
+                border: 3px solid #fff;
+                box-sizing: border-box;
+            }
+            input[type=submit], select {
+                width: 160px;
+                height:35px;
+                background-color:#F2F2F2;
+                color:#555;
+                margin: 8px 10px 0px 0px;
+                display: inline-block;
+                border: 0px solid #fff;
+                box-sizing: border-box;
+                border-radius: 5px 5px 5px 5px;
+                font-size:14px;
+                font-color:#999;
+            }
+            .btn:hover {
+                box-shadow: 0px 0px 1px 1px #999;
+            }
+            .all {
+                max-width: 100%;
+                min-width: 900px;
+                height: 16rem;
+                display:inline;
+                }
+            .center-h {
+                justify-content: center;
+                }
+            .center-v {
+                align-items: center;
+                }
+            .img{
+                width:100%;
+                justify-content: center;  
+                display:flex ; 
+                margin:131px 0px 25px 0px;  
+            }
+            .other{
+                width:100%;
+                height:
+                justify-content: center;  
+                display:flex ; 
+            }
+            .button{
+                width:100%;
+                justify-content: center;  
+                display:flex ; 
+                margin:22px 0px 0px 0px ;
+            }
+            .box {
+                border-radius: 35px 35px 35px 35px;
+                width: 588px;
+                height: 47px;
+                justify-content: center;
+                display: flex;
+                border: 1px solid #E2E2E2;
+                box-sizing: border-box;
+                position:relative;
+            }
+            .box:hover{
+                box-shadow: 0px 0px 3px #999;
+            }
+            .img_search{
+                width: 18px;
+                height: 18px;
+                margin: 12px 0px 0px -27px;
+            }
+            .aweb{
+                color:black;
+            }
+            .link{
+                width:auto;
+                height: 18px;
+                background:white;
+                float:right;
+                margin: 0px 0px 131px 0px;
+            }
+            a{
+                text-decoration:none;
+                margin:0px 10px 0px 0px;
+            }
+        </style>
+        
+    </head>
+    <body>  
+        <div class="all center-v center-h" >
+            <div class="link">
+                <a href="index.html" class="aweb"><b>La Web</b></a>
+                <a href="image.html" class="aimg">Imágenes</a>
+                <a href="advanced.html" class="aimg">Busqueda Avanzada</a>
+            </div>
+            <div class="img">
+                <img  src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            </div>
+            <form action="https://google.com/search">
+                <div class="other center-v center-h">
+                    <div class="box">
+                        <div class="img_search ">
+                            <img src="search.png">
+                        </div>
+                        <input class= "text" type="text" name="q">
+                    </div>
+                </div>
+                <div class="button">
+                    <input class="btn" style="margin: 08px 10px 0px -5px" type="submit" value="Buscar con Google"/>
+                    <input name="btnI" class="btn" value="Me siento con suerte" type="submit" />
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+

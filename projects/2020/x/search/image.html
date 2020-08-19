@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <style type="text/css">
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            input[type=text], select {
+                width: 72%;
+                height:30px;
+                margin: 08px 0px 0px 0px;
+                display: inline-block;
+                border: 3px solid #fff;
+                box-sizing: border-box;
+            }
+            input[type=submit], select {
+                width: 160px;
+                height:35px;
+                background-color:#F2F2F2;
+                color:#555;
+                margin: 8px 10px 0px 0px;
+                display: inline-block;
+                border: 0px solid #fff;
+                box-sizing: border-box;
+                border-radius: 5px 5px 5px 5px;
+                font-size:14px;
+                font-color:#999;
+            }
+            .btn:hover {
+                box-shadow: 0px 0px 1px 1px #999;
+            }
+            .all {
+                max-width: 100%;
+                min-width: 900px;
+                height: 16rem;
+                display:inline;
+                }
+            .center-h {
+                justify-content: center;
+                }
+            .center-v {
+                align-items: center;
+                }
+            .img{
+                width:100%;
+                justify-content: center;  
+                display:flex ; 
+                margin:131px 0px 25px 08px;
+         
+            }
+            .other{
+                width:100%;
+                height:
+                justify-content: center;  
+                display:flex ;
+                
+            }
+            .button{
+                width:100%;
+                justify-content: center;  
+                display:flex ; 
+                margin:22px 0px 0px 0px ;
+            }
+            .box {
+                border-radius: 35px 35px 35px 35px;
+                width: 534px;
+                height: 47px;
+                justify-content: LEFT;
+                display: flex;
+                border: 1px solid #E2E2E2;
+                box-sizing: border-box;
+                position:relative;
+                padding: 0px 0px 0px 40px;
+            }
+            .box:hover{
+                box-shadow: 0px 0px 3px #999;
+            }
+            .img_search{
+                width: 18px;
+                height: 18px;
+                margin: 12px 10px 0px -27px;
+            }
+            .aweb{
+                color:black;
+            }
+            .link{
+                width:auto;
+                height: 18px;
+                background:white;
+                float:right;
+                margin: 0px 0px 128px 0px;
+            }
+            a{
+                text-decoration:none;
+                margin:0px 10px 0px 0px;
+            }
+            .lbl_image{
+                float:left;
+               /*margin-right: 45px;
+                margin:90px 0px 0px 0px;*/
+            }
+            .x{
+                width:40px;
+                height: 30px;
+                margin: 08px 0px 0px 0px;
+                display:flex ; 
+            }
+            .imgx{
+                width:20px;
+                height: 20px;
+            }
+            .img_photo{
+                width:50px;
+                height: 30px;
+                margin: 08px 0px 0px 0px;
+                display:flex ; 
+            }
+            .img_search2{
+                width:30px;
+                height: 30px;
+                display:flex ; 
+                margin: 08px 0px 0px 0px;
+            }
+        </style>
+        
+    </head>
+    <body>  
+        <div class="all center-v center-h" >
+            <div class="link">
+                <a href="index.html" class="aweb"><b>La Web</b></a>
+                <a href="image.html" class="aimg">Imágenes</a>
+                <a href="advanced.html" class="aimg">Busqueda Avanzada</a>
+            </div>
+            <div class="img">
+                <img  src="googlelogo_color_290x92dp.png">
+            </div>
+            <form action="http://images.google.com/images">
+                <div class="other center-v center-h">
+                    <div class="box">
+                        <div class="img_search ">
+                            <img src="search.png">
+                        </div>
+                        <input class= "text" type="text" name="q">
+                        <div class="x center-v center-h" > 
+                            <img class="imgx" src="x.png">
+                        </div>
+                        <div class="img_photo center-v center-h"> 
+                            <img class="imgx" src="photo.png">
+                        </div>
+                        <div class="img_search2 center-v center-h"> 
+                            <img class="imgx" src="search.png">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+
